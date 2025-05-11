@@ -18,5 +18,5 @@ Install dependencies using pip:
 
 ```bash
 pip install requests pandas beautifulsoup4 sqlalchemy lxml
-**PoweBI,Cleaning and Visualization**
+## **PoweBI,Cleaning and Visualization**
 Once the data is stored in the PostgreSQL db, which is connected using DBeaver(for) localhost, the data is then accessed using PowerBI for after cleaning the final phase is visualizaton. 
