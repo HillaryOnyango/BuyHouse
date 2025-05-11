@@ -1,7 +1,7 @@
 # BuyHouse
 # Web Scraping and Data Analysis with Python
 
-This project demonstrates how to perform basic web scraping and data analysis using Python libraries such as `requests`, `BeautifulSoup`, and `pandas`. The data can optionally be stored in an SQL database using SQLAlchemy.
+This project demonstrates how to perform basic web scraping and data analysis using Python libraries such as `requests`, `BeautifulSoup`, and `pandas`. The data is stored in a Postgres SQL database using SQLAlchemy. The base URL for the project is 'https://www.buyrentkenya.com/houses-for-sale' from the website "BuyRentKenya"
 
 ## 📁 Project Files
 
@@ -18,3 +18,5 @@ Install dependencies using pip:
 
 ```bash
 pip install requests pandas beautifulsoup4 sqlalchemy lxml
+**PoweBI,Cleaning and Visualization**
+Once the data is stored in the PostgreSQL db, which is connected using DBeaver(for) localhost, the data is then accessed using PowerBI for after cleaning the final phase is visualizaton. 
